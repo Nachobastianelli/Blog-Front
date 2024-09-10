@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import Border from "../border/Border";
-import NewComentario from "../../newComentario/NewComentario";
+import NewComentario from "../newComentario/NewComentario";
 import { IconCirclePlus } from "@tabler/icons-react";
 import { IconPencil } from "@tabler/icons-react";
 import { IconTrashX } from "@tabler/icons-react";

@@ -4,9 +4,13 @@ import ProfileCard from "../profileCard/ProfileCard";
 import FiltredButtons from "../filtredButtons/FiltredButtons";
 import { IconNews } from "@tabler/icons-react";
 import { IconTag } from "@tabler/icons-react";
-import NewComentario from "../../newComentario/NewComentario";
+import NewComentario from "../newComentario/NewComentario";
+import { useNavigate } from "react-router-dom";
+import LabelCreator from "../labelCreator/LabelCreator";
 
 const Dashboard = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="bg-fondoLibreta min-h-fit">
       <div className=" bg-[#222] min-h-[200px] max-h-[200px] drop-shadow-2xl">
@@ -56,7 +60,6 @@ const Dashboard = () => {
 
         <ProfileCard />
 
-        <NewComentario />
         <div className="h-20"></div>
       </div>
     </div>
